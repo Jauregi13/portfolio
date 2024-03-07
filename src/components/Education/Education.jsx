@@ -7,7 +7,7 @@ import EducationCard from './EducationCard';
 
 import { educationData } from '../../data/educationData'
 
-function Education() {
+export const Education = () => {
 
     const { theme } = useContext(ThemeContext);
     return (
@@ -34,5 +34,3 @@ function Education() {
         </div>
     )
 }
-
-export default Education

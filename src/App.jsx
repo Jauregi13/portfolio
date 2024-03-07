@@ -1,12 +1,13 @@
-import React, { useContext } from 'react';
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
-
-import { ThemeContext } from './contexts/ThemeContext';
-import { Main, BlogPage, ProjectPage } from './pages'
-import { BackToTop } from './components'
-import ScrollToTop from './utils/ScrollToTop'
-
+import React, { useContext} from 'react';
+import reactLogo from './assets/react.svg'
+import { Switch, Route, Redirect, BrowserRouter } from 'react-router-dom';
 import './App.css'
+import { BackToTop } from './components/BackToTop/BackToTop';
+import { ThemeContext } from './contexts/ThemeContext';
+import ScrollToTop from './utils/ScrollToTop'
+import { Main } from './pages/Main/Main';
+import { BlogPage } from './pages/Blog/BlogPage';
+import { ProjectPage } from './pages/Project/ProjectPage';
 
 function App() {
 
@@ -14,11 +15,11 @@ function App() {
 
   console.log("%cDEVELOPER PORTFOLIO", `color:${theme.primary}; font-size:50px`);
   console.log("%chttps://github.com/hhhrrrttt222111/developer-portfolio", `color:${theme.tertiary}; font-size:20px`);
-  // console.log = console.warn = console.error = () => {};
 
   return (
+
     <div className="app">
-      <Router>
+      <BrowserRouter>
         <ScrollToTop/>
         <Switch>
           <Route path="/" exact component={Main} />
@@ -27,10 +28,10 @@ function App() {
 
           <Redirect to="/" />
         </Switch>
-      </Router>
+      </BrowserRouter>
       <BackToTop />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

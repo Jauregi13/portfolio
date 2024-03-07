@@ -3,7 +3,7 @@ import './Footer.css'
 import { ThemeContext } from '../../contexts/ThemeContext'
 import { headerData } from '../../data/headerData'
 
-function Footer() {
+export const Footer = () => {
 
     const shortname = (name) => {
         if(name.length > 10) {
@@ -27,6 +27,3 @@ function Footer() {
         </div>
     )
 }
-
-export default Footer
-

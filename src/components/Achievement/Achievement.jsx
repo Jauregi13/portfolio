@@ -3,9 +3,9 @@ import React, { useContext} from 'react';
 import './Achievement.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { achievementData } from '../../data/achievementData'
-import AchievementCard from './AchievementCard';
+import { AchievementCard } from './AchievementCard';
 
-function Achievement() {
+export const Achievement = () => {
 
     const { theme } = useContext(ThemeContext);
     return (
@@ -33,5 +33,3 @@ function Achievement() {
         </>
     )
 }
-
-export default Achievement

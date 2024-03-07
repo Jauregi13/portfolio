@@ -7,7 +7,7 @@ import './Experience.css';
 import { experienceData } from '../../data/experienceData'
 import ExperienceCard from './ExperienceCard';
 
-function Experience() {
+export const Experience = () => {
 
     const { theme } = useContext(ThemeContext);
     return (
@@ -32,5 +32,3 @@ function Experience() {
         </div>
     )
 }
-
-export default Experience

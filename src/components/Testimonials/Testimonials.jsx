@@ -9,7 +9,8 @@ import { testimonialsData } from '../../data/testimonialsData';
 
 import './Testimonials.css';
 
-function Testimonials() {
+export const Testimonials = () => {
+    
     const { theme } = useContext(ThemeContext);
     const sliderRef = useRef();
 

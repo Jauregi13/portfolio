@@ -16,7 +16,7 @@ import {
     FaBlogger,
 } from 'react-icons/fa';
 
-function Landing() {
+export const Landing = () => {
     const { theme, drawerOpen } = useContext(ThemeContext);
 
     const useStyles = makeStyles((t) => ({
@@ -193,5 +193,3 @@ function Landing() {
         </div>
     );
 }
-
-export default Landing;

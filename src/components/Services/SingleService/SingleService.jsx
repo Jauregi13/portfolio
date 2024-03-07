@@ -6,7 +6,7 @@ import { ThemeContext } from '../../../contexts/ThemeContext';
 import './SingleService.css'
 
 
-function SingleService({id, title, icon}) {
+export const SingleService = ({id, title, icon}) => {
 
     const { theme } = useContext(ThemeContext);
     return (
@@ -20,5 +20,3 @@ function SingleService({id, title, icon}) {
         </Fade>
     )
 }
-
-export default SingleService

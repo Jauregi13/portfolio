@@ -5,7 +5,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import './BackToTop.css';
 
-function BackToTop() {
+export const BackToTop = () => {
+    
     const [visible, setVisible] = useState(false);
 
     const { theme } = useContext(ThemeContext);
@@ -48,5 +49,3 @@ function BackToTop() {
         </div>
     );
 }
-
-export default BackToTop;

@@ -27,7 +27,7 @@ import { socialsData } from '../../data/socialsData';
 import { contactsData } from '../../data/contactsData';
 import './Contacts.css';
 
-function Contacts() {
+export const Contacts = () => {
     const [open, setOpen] = useState(false);
 
     const [name, setName] = useState('');
@@ -436,5 +436,3 @@ function Contacts() {
         </div>
     );
 }
-
-export default Contacts;

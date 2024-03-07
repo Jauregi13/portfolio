@@ -1,10 +1,15 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-import { Navbar, Footer, Landing, About, Skills, Testimonials, Blog, Education, Experience, Contacts, Projects, Services, Achievement } from '../../components'
+import { Navbar } from './../../components/Navbar/Navbar'
+import { Landing } from './../../components/Landing/Landing'
+import { Skills } from './../../components/Skills/Skills'
 import { headerData } from '../../data/headerData'
+import { Education } from '../../components/Education/Education'
+import { Projects } from '../../components/Projects/Projects'
+import { Contacts } from '../../components/Contacts/Contacts'
 
-function Main() {
+export const Main = () => {
     return (
         <div>
             <Helmet>
@@ -13,16 +18,14 @@ function Main() {
 
             <Navbar />        
             <Landing />
-            <About />
+            {/*<About />*/}
             <Skills />
             <Education />            
             <Projects />
-            <Achievement />
+            { /*<Achievement /> */}
             {/* <Blog /> */}
             <Contacts />
             {/* <Footer /> */}
         </div>
     )
 }
-
-export default Main

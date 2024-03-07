@@ -1,10 +1,10 @@
 import React, { createContext, useState } from 'react'
 
-import { themeData } from '../data/themeData'
+import { themeData } from './../data/themeData'
 
 export const ThemeContext = createContext()
 
-function ThemeContextProvider(props) {
+export const ThemeContextProvider = (props) => {
     // eslint-disable-next-line
     const [theme, setTheme] = useState(themeData.theme)
     const [drawerOpen, setDrawerOpen] = useState(false)
@@ -13,8 +13,6 @@ function ThemeContextProvider(props) {
         setDrawerOpen(!drawerOpen)
     }
 
-
-
     const value = { theme, drawerOpen, setHandleDrawer }
     return (
         <ThemeContext.Provider value={value}>
@@ -22,6 +20,3 @@ function ThemeContextProvider(props) {
         </ThemeContext.Provider>
     )
 }
-
-
-export default ThemeContextProvider

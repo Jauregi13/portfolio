@@ -7,7 +7,7 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { skillsData } from '../../data/skillsData'
 import { skillsImage } from '../../utils/skillsImage'
 
-function Skills() {
+export const Skills = () => {
 
     const { theme } = useContext(ThemeContext);
 
@@ -46,5 +46,3 @@ function Skills() {
         </div>
     )
 }
-
-export default Skills

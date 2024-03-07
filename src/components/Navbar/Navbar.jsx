@@ -14,7 +14,7 @@ import './Navbar.css';
 import { headerData } from '../../data/headerData';
 import { ThemeContext } from '../../contexts/ThemeContext';
 
-function Navbar() {
+export const Navbar = () => {
     const { theme, setHandleDrawer } = useContext(ThemeContext);
 
     const [open, setOpen] = useState(false);
@@ -290,5 +290,3 @@ function Navbar() {
         </div>
     );
 }
-
-export default Navbar;

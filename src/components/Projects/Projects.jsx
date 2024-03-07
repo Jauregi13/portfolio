@@ -7,9 +7,9 @@ import { projectsData } from '../../data/projectsData'
 import { HiArrowRight } from "react-icons/hi";
 
 import './Projects.css'
-import SingleProject from './SingleProject/SingleProject';
+import { SingleProject } from './SingleProject/SingleProject';
 
-function Projects() {
+export const Projects = () => {
 
     const { theme } = useContext(ThemeContext);
 
@@ -84,5 +84,3 @@ function Projects() {
         </>
     )
 }
-
-export default Projects

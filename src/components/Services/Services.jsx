@@ -5,9 +5,9 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { servicesData } from '../../data/servicesData';
 
 import './Services.css'
-import SingleService from './SingleService/SingleService';
+import { SingleService } from './SingleService/SingleService';
 
-function Services() {
+export const Services = () => {
 
     const { theme } = useContext(ThemeContext);
     return (
@@ -36,5 +36,3 @@ function Services() {
        </>
     )
 }
-
-export default Services
