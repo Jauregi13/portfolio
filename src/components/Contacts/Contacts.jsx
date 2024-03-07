@@ -1,9 +1,9 @@
 import React, { useContext, useState } from 'react';
-import { Snackbar, IconButton, SnackbarContent } from '@material-ui/core';
-import CloseIcon from '@material-ui/icons/Close';
+import { Snackbar, SnackbarContent, IconButton } from '@mui/material';
+import { Close as CloseIcon } from '@mui/icons-material';
 import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@mui/material';
 import {
     FaTwitter,
     FaLinkedinIn,
