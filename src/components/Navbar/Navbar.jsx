@@ -6,7 +6,8 @@ import { HiDocumentText } from 'react-icons/hi';
 import { BsFillGearFill } from 'react-icons/bs';
 import { MdPhone } from 'react-icons/md';
 import { FaUser, FaFolderOpen } from 'react-icons/fa';
-import { makeStyles, Drawer } from '@mui/material';
+import { Drawer } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { Close as CloseIcon } from '@mui/icons-material';
 
 import './Navbar.css';

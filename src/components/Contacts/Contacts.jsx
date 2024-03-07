@@ -3,7 +3,7 @@ import { Snackbar, SnackbarContent, IconButton } from '@mui/material';
 import { Close as CloseIcon } from '@mui/icons-material';
 import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
-import { makeStyles } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import {
     FaTwitter,
     FaLinkedinIn,

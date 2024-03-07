@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-import { makeStyles, Button } from '@mui/material';
+import { Button } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
