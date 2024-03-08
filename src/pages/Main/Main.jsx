@@ -6,8 +6,10 @@ import { Landing } from './../../components/Landing/Landing'
 import { Skills } from './../../components/Skills/Skills'
 import { headerData } from '../../data/headerData'
 import { Education } from '../../components/Education/Education'
+import { Experience } from '../../components/Experience/Experience'
 import { Projects } from '../../components/Projects/Projects'
 import { Contacts } from '../../components/Contacts/Contacts'
+import { About } from '../../components/About/About'
 
 export const Main = () => {
     return (
@@ -18,9 +20,10 @@ export const Main = () => {
 
             <Navbar />        
             <Landing />
-            {/*<About />*/}
+            <About />
             <Skills />
-            <Education />            
+            <Education />  
+            <Experience />          
             <Projects />
             { /*<Achievement /> */}
             {/* <Blog /> */}
