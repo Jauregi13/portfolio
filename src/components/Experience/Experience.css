@@ -51,7 +51,9 @@
 }
 
 .expcard-img > img {
-    width: 36px;
+    width: inherit;
+    height: inherit;
+    border-radius: 25%;
     pointer-events: none;
 }
 

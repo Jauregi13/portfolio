@@ -24,6 +24,7 @@ export const Education = () => {
                             course={edu.course}
                             startYear={edu.startYear}
                             endYear={edu.endYear}
+                            logo={edu.logoImg}
                         />
                     ))}
                 </div>

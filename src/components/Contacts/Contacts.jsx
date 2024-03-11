@@ -282,7 +282,7 @@ export const Contacts = () => {
 
                     <div className='contacts-details'>
                         <a
-                            // href={`mailto:${contactsData.email}`}
+                            href={`mailto:${contactsData.email}`}
                             className='personal-details'
                         >
                             <div className={classes.detailsIcon}>
@@ -303,14 +303,6 @@ export const Contacts = () => {
                                 {contactsData.phone}
                             </p>
                         </a>
-                        <div className='personal-details'>
-                            <div className={classes.detailsIcon}>
-                                <HiOutlineLocationMarker />
-                            </div>
-                            <p style={{ color: theme.tertiary }}>
-                                {contactsData.address}
-                            </p>
-                        </div>
 
                         <div className='socialmedia-icons'>
                             {/* {socialsData.twitter && (

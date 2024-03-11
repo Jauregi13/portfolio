@@ -1,7 +1,8 @@
 import React, { useContext, useState } from 'react'
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
-import { makeStyles, Grid } from '@mui/material'
+import { Grid } from '@mui/material'
+import { makeStyles } from '@mui/styles'
 import { AiOutlineHome } from "react-icons/ai";
 
 import './ProjectPage.css'

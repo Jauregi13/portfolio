@@ -52,7 +52,9 @@
 }
 
 .educard-img > img {
-    width: 40px;
+    width: inherit;
+    height: inherit;
+    border-radius: 25%;
 }
 
 .education-details{
