@@ -51,7 +51,7 @@ export const Navbar = () => {
         },
         MuiDrawer: {
             padding: '0em 1.8em',
-            width: '14em',
+            width: '17em',
             fontFamily: ' var(--primaryFont)',
             fontStyle: ' normal',
             fontWeight: ' normal',
@@ -209,7 +209,7 @@ export const Navbar = () => {
                                 <div className={classes.drawerItem}>
                                     <FaUser className={classes.drawerIcon} />
                                     <span className={classes.drawerLinks}>
-                                        About
+                                        Sobre Mí
                                     </span>
                                 </div>
                             </NavLink>
@@ -227,7 +227,25 @@ export const Navbar = () => {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Education
+                                        Experiencia
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+
+                        <Fade left>
+                            <NavLink
+                                to='/#education'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <HiDocumentText
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Formación
                                     </span>
                                 </div>
                             </NavLink>
@@ -263,7 +281,7 @@ export const Navbar = () => {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Projects
+                                        Proyectos
                                     </span>
                                 </div>
                             </NavLink>
@@ -279,7 +297,7 @@ export const Navbar = () => {
                                 <div className={classes.drawerItem}>
                                     <MdPhone className={classes.drawerIcon} />
                                     <span className={classes.drawerLinks}>
-                                        Contact
+                                        Contacto
                                     </span>
                                 </div>
                             </NavLink>

@@ -24,7 +24,7 @@ export const About = () => {
                 <div className="about-img">
                     <img 
                         src={aboutData.image === 2 ? theme.aboutimg1 : theme.aboutimg2}  
-                        alt="" 
+                        alt="about Image" 
                     />
                 </div>
             </div>

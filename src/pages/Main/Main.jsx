@@ -22,8 +22,8 @@ export const Main = () => {
             <Landing />
             <About />
             <Skills />
-            <Education />  
-            <Experience />          
+            <Experience />
+            <Education />       
             <Projects />
             { /*<Achievement /> */}
             {/* <Blog /> */}

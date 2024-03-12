@@ -166,12 +166,11 @@ export const Landing = () => {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
-                                        Download CV
+                                        Descargar CV
                                     </Button>
                                 </a>
                             )}
@@ -182,7 +181,7 @@ export const Landing = () => {
                                 duration={2000}
                             >
                                 <Button className={classes.contactBtn}>
-                                    Contact
+                                    Contacto
                                 </Button>
                             </NavLink>
                         </div>

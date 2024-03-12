@@ -1,5 +1,5 @@
 export const aboutData = {
-    title: "Sobre mi",
+    title: "Sobre mí",
     description1: `Me llamo Jon y soy un junior full stack developer. Sin embargo, con más preferencia hacia el back-end.`,
     description2: `Desde pequeño tenía la curiosidad por la informática, sobre todo cuando tenía problemas con el ordenador
     y no saber como resolverlos, por ejemplo por algún virus o problemas de hardware. 

@@ -7,7 +7,7 @@ export const experienceData = [
     {
         id: 1,
         company: 'Oxygen Academy and Recruiting',
-        jobtitle: 'Training Full Stack Developer',
+        jobtitle: 'Full Stack Developer',
         startYear: '2023',
         endYear: '2024',
         logo: logoOxygen
@@ -15,7 +15,7 @@ export const experienceData = [
     {
         id: 2,
         company: 'Bostan Servicios Creativos',
-        jobtitle: 'Prácticas',
+        jobtitle: 'Desarrollador Web',
         startYear: '2019/Marzo',
         endYear: '2019/Junio',
         logo: logoBostnan
@@ -23,7 +23,7 @@ export const experienceData = [
     {
         id: 3,
         company: 'Gugo Creative',
-        jobtitle: 'Prácticas',
+        jobtitle: 'Desarrollador Web',
         startYear: '2017/Marzo',
         endYear: '2017/Junio',
         logo: logoGugoCreative
@@ -31,7 +31,7 @@ export const experienceData = [
     {
         id: 4,
         company: 'Zabaleku Informatika',
-        jobtitle: 'Codificador informático',
+        jobtitle: 'Codificador Informático',
         startYear: '2016/Junio',
         endYear: '2016/Noviembre',
         logo: logoZabaleku
